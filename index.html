@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Will You Be Mine ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3, #ffd1dc);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .container {
+      text-align: center;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      animation: fadeIn 2s ease;
+      max-width: 400px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      position: relative;
+      height: 80px;
+    }
+
+    button {
+      padding: 12px 28px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    #yesBtn {
+      background: #00ffb3;
+      color: #003333;
+      box-shadow: 0 8px 20px rgba(0,255,179,0.5);
+    }
+
+    #yesBtn:hover {
+      transform: scale(1.1);
+    }
+
+    #noBtn {
+      position: absolute;
+      right: 0;
+      background: #ff4d6d;
+      color: white;
+      box-shadow: 0 8px 20px rgba(255,77,109,0.6);
+    }
+
+    .message {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.1em;
+      animation: fadeIn 2s ease;
+    }
+
+    .heart {
+      position: absolute;
+      bottom: -20px;
+      font-size: 20px;
+      animation: floatUp 6s linear infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes floatUp {
+      from {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      to {
+        transform: translateY(-120vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>❤️ Will You Be My Better Half ❤️</h1>
+    <p>
+      Not just for today…  
+      But for every tomorrow, every dream, every smile.  
+      Will you be my future wife?
+    </p>
+
+    <div class="buttons">
+      <button id="yesBtn">Yes 💍</button>
+      <button id="noBtn">No 🙈</button>
+    </div>
+
+    <div class="message" id="loveMessage">
+      💖  
+      You just made my world complete.  
+      From this moment, every heartbeat of mine belongs to you.  
+      I promise to stand by you, love you deeply,  
+      and choose you every single day of my life.  
+      🌹 Forever starts now.
+      
